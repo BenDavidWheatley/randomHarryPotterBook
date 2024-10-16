@@ -1,0 +1,51 @@
+@font-face {
+    font-family: harry;
+    src: url(./HARRYP__.TTF);
+  }
+
+* {
+    box-sizing: border-box;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+button {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: 	white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #641e1e;
+    border-radius: 5px;
+    border: solid 1px #641e1e;
+}
+button:hover {
+    background-color:#c39a1c;
+    transition: all 0.1s;
+    box-shadow: 3px 3px 3px #000
+}
+button:active {
+    box-shadow: none;
+    transform:translateY(3px);
+    transition: all 0s;
+}
+h1 {
+    font-family: harry;
+    font-size: 50px;
+    text-align: center;
+    color:#000
+}
+ /******** Media Queries ********/
+@media only screen and (max-width: 600px) {
+    main{
+        padding: 0px;
+    }
+}
