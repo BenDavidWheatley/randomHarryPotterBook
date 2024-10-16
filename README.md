@@ -1,4 +1,4 @@
-* Random Message Generator
+# Random Message Generator
 
 A codecademy projects following modules on Git, javascript syntax and css.
 The project is to create a random message generator. My idea was to create the next installment of the Harry Potter series.
